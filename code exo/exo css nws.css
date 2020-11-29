@@ -1,0 +1,55 @@
+html,body {
+  margin: 0;
+    padding: 0;
+}
+
+.carte {
+    
+    box-sizing: border-box;
+    width: 50%;
+border: solid #5B6DCD 10px;
+padding: 5px;
+}
+
+.news {
+    
+    box-sizing: border-box;
+    width: 50%;
+border: solid #5B6DCD 10px;
+padding: 5px;
+}
+
+
+
+.alert {
+  color: white;
+    width: 200px;
+    --main-bg-color-er: red;
+     --main-bg-color-inf: orange;
+     --main-bg-color-suc: green;
+}
+
+
+.error{
+   background-color:  var(--main-bg-color-er);
+}
+.info{
+    background-color:  var(--main-bg-color-inf);
+}
+.success{
+     background-color:  var(--main-bg-color-suc);
+}
+
+
+
+.bouton 
+{
+    background-color: darksalmon;
+    width: 150px;
+    height: 50px;
+} 
+
+.bouton2
+{
+    background-color:cornflowerblue;
+} 
